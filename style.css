@@ -1,0 +1,25 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    width: 500px;
+    height: auto;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 60vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+li,p{
+    margin: 10px;
+}
+.rainbow-text {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+  }
